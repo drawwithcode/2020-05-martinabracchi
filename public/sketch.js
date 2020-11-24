@@ -38,14 +38,17 @@ function drawOtherMouse(data) {
 
 function preload(){
   // put preload code here
-  let img = ('assets/cruciverba.png')
+  let img = ('assets/cruciverba.png');
 
 }
 
 function setup() {
   createCanvas(windowWidth,windowHeight)
-  background("purple");
+background("black");
 imageMode(CENTER)
+
+text('CREATIVE CODING WORD SEARCH', 0, 0);
+textSize(100)
 
   image(img, width/2, height/2, 1000, 1000  )
 
