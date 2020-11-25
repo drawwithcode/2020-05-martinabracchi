@@ -46,7 +46,7 @@ function setup() {
   background("black");
   imageMode(CENTER);
 
-  image(img, width/2, height/2)
+  image(img, width/2, height/2, 1000, 1000)
 
   push();
   textAlign(CENTER);
