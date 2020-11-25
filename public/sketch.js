@@ -45,10 +45,22 @@ function setup() {
   createCanvas(windowWidth,windowHeight)
   background("black");
   imageMode(CENTER);
-
   image(img, width/2, (height/2) + 50, 600, 600)
 
+push();
+fill('white');
+textSize(100)
+  text('WORD SEARCH', 100, 100)
+  pop();
+
   push();
+  fill('white');
+  textSize(36)
+    text('Creadive coding edition', 100, 150)
+    pop();
+
+  push();
+  translate(0, height/2.3);
   textAlign(CENTER);
   textSize(30);
   fill(myColor);
