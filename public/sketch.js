@@ -44,6 +44,9 @@ img = loadImage('assets/cruciverba.png')
 function setup() {
   createCanvas(windowWidth,windowHeight)
   background("black");
+  imageMode(CENTER);
+
+  image(img, width/2, height/2)
 
   push();
   textAlign(CENTER);
