@@ -38,12 +38,12 @@ function drawOtherMouse(data) {
 
 function preload(){
   // put preload code here
-
+img = loadImage('assets/cruciverba.png')
 }
 
 function setup() {
   createCanvas(windowWidth,windowHeight)
-  background("purple");
+  background("black");
 
   push();
   textAlign(CENTER);
