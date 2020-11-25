@@ -46,7 +46,7 @@ function setup() {
   background("black");
   imageMode(CENTER);
 
-  image(img, width/2, height/2, 1000, 1000)
+  image(img, width/2, (height/2) + 50, 600, 600)
 
   push();
   textAlign(CENTER);
@@ -63,8 +63,9 @@ function setup() {
 
 function mouseMoved() {
   push();
+  noStroke();
   fill(myColor);
-  ellipse(mouseX, mouseY, 40);
+  ellipse(mouseX, mouseY, 10);
   pop();
 
   let message = {
