@@ -59,6 +59,17 @@ textSize(100)
     text('Creadive coding edition', 100, 150)
     pop();
 
+    push();
+    fill('white');
+    textSize(24)
+      text('id      array class draw html index preload setup ', width/1.3, height/1.6, 100,600)
+      pop();
+      push();
+      fill('white');
+      textSize(24)
+        text('js    body  code function style script sketch webgl', width/1.15, height/1.6, 100,600)
+        pop();
+
   push();
   translate(0, height/2.3);
   textAlign(CENTER);
